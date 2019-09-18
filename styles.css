@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+}
+/* intial flex */
+.flex-container{
+  display: flex;
+}
+
+.flex-container-2{
+  display: flex;
+  /*  */
+  flex-direction: column;
+}
+
+.flex-container-3{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-item:nth-child(1){
+  color: blue;
+}
+.flex-item:nth-child(2){
+  color: red;
+}
+.flex-item:nth-child(3){
+  color: green;
+}
